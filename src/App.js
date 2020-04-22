@@ -1,23 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+import catcher from './catcher.svg';
+import flower from './flower.svg';
+import vinyl from './vinyl.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={vinyl} className="App-vinyl" alt="logo" />
+        <img src={flower} className="App-flower" alt="logo" />
+        <img src={catcher} className="App-catcher" alt="logo" />
+        <div className="text">
+          <h1>Something trippy is under construction here</h1>
+          <p> Until then #stayhome.</p>
+        </div>
       </header>
     </div>
   );
